@@ -1,0 +1,63 @@
+body {
+  background-color: #f5f3f3;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.repo-item {
+  display: flex;
+  background-color: #fafafa;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: 20px 0;
+  width: 100%;
+  box-shadow: #dcdcdc -1px 4px 14px 1px;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #0366d6
+}
+
+.paragraph {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #5c5c5c;
+}
+
+.repos-item-infos-body {
+  padding: 10px 0 10px 10px;
+}
+
+.repos-item-info-footer {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.tags {
+  padding: 2px 5px;
+  margin: 0 5px;
+  background-color: #f4f4f4;
+  border-radius: 7px;
+  border: 1px solid #b3b3b3;
+}
+
+.tags i {
+  font-size: 0.9rem;
+}
+
+.tags span {
+  font-size: 0.8rem;
+
+}
+
+.extra {
+  background-color: #333333;
+  color: #fff;
+}
+
+.date {
+  font-size: 0.9rem;
+  justify-self: flex-end;
+  color: #353535;
+}
